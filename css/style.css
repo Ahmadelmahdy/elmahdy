@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+    background: url('../img/zwartevilt.png') center ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: raleway , sans-serif;
+}
+.container{
+    background: #fff;
+    box-shadow: -15px 15px 0px rgb(0, 0, 0);
+}
+@media screen and (min-width:500px){
+    .container{
+        padding: 40px;
+    }
+}
+@media screen and (max-width:400px){
+    .container{
+        padding: 10px
+    }
+}
+.container .name {
+
+}
+.container .name h1{
+    margin-bottom: -1px;
+    font: bold 3em/1 raleway;
+    color: #444;
+    text-transform: uppercase;
+    text-shadow: -1px 2px 2px #ddd;
+}
+.container .name span{
+    color: #999;
+    display: inline-block;
+}
+.container .social{
+    padding: 10px 0;
+    text-align: center;
+}
+.container .social ul{
+    list-style: none;
+    padding: 0
+}
+.container .social ul li{
+    display: inline-block;
+    margin: 0 1px
+}
+.container .social ul li a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.container .social ul li a i{
+    display: block;
+    line-height: 40px;
+    text-decoration: none
+}
+.container .social ul li a i[class*="behance"]:hover{
+    background: #1769ff
+}
+.container .social ul li a i[class*="codepen"]:hover{
+    background: #444
+}
+.container .social ul li a i[class*="facebook"]:hover{
+    background: #3b5998
+}
+.container .social ul li a i[class*="twitter"]:hover{
+    background: #1da1f2
+}
